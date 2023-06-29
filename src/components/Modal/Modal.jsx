@@ -9,22 +9,6 @@ export class Modal extends Component {
     };
   }
 
-  // async componentDidMount() {
-  //   this.setState({ isOpen: true });
-  //   document.addEventListener('keydown', this.closeModal);
-  // }
-
-  // componentWillUnmount() {
-  //   this.setState({ isOpen: true });
-  //   document.removeEventListener('keydown', this.closeModal);
-  // }
-
-  // closeModal = e => {
-  //   if (e.target.nodeName === 'DIV' || e.key === 'Escape') {
-  //     this.setState({ isOpen: false });
-  //   }
-  // };
-
   render = () => {
     return (
       this.state.isOpen === true && (
